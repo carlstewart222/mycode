@@ -1,0 +1,250 @@
+    1  history
+    2  exit
+    3  exit
+    4  exit
+    5  curl http://127.0.0.1:9021
+    6  python3 ~/mycode/httpwork/custom_client.py
+    7  vim ~/mycode/httpwork/custom_client02.py
+    8  python3 ~/mycode/httpwork/custom_client02.py
+    9  cd mycode/
+   10  ./ugit.sh 
+   11  python3 -m pip install flask
+   12  mkdir ~/mycode/flaskapi/
+   13  cd ~/mycode/flaskapi/
+   14  vim ~/mycode/flaskapi/myflask01.py
+   15  vim myflask02.py
+   16  python3 myflask02.py
+   17  vim myflask03.py
+   18  sudo apt install curl
+   19  curl http://0.0.0.0:2224/user/admin -L
+   20  curl http://0.0.0.0:2224/user/Wolverine -L
+   21  mkdir templates/
+   22  vim templates/postmaker.html
+   23  vim myflask04.py
+   24  curl http://0.0.0.0:2224/login?nm=Wolverine -L
+   25  curl http://0.0.0.0:2224/login -L
+   26  cd ..
+   27  ./ugit.sh 
+   28  ls
+   29  mkdir -p /home/student/mycode/flaskapi/
+   30  cd ~/mycode/flaskapi/
+   31  vim jinja2temp01.py
+   32  mkdir ~/mycode/flaskapi/templates/
+   33  cd ~/mycode/flaskapi/templates/
+   34  vim hellobasic.html
+   35  cd ~/mycode/flaskapi/
+   36  python3 jinja2temp01.py
+   37  curl http://0.0.0.0:2224 -L
+   38  vim jinja2temp02.py
+   39  vim templates/helloname.html
+   40  curl http://0.0.0.0:2224/James%20Bond -L
+   41  vim jinja2temp03.py
+   42  vim templates/highscore.html
+   43  mkdir -p ~/mycode/templates
+   44  vim ~/mycode/templates/hosts.j2
+   45  vim ~/mycode/templates/formcollector.html.j2
+   46  vim ~/mycode/solution.py
+   47  vim milkncookies.py
+   48  mkdir templates/
+   49  vim templates/login.html
+   50  vim templates/readcookie.html
+   51  curl http://0.0.0.0:2224/ -L
+   52  curl http://0.0.0.0:2224/setcookie -d "nm=Larry" -L
+   53  curl http://0.0.0.0:2224/setcookie -d "nm=larry" -L -c cookie-jar.txt
+   54  curl http://0.0.0.0:2224/getcookie -L -b cookie-jar.txt
+   55  curl http://0.0.0.0:2224/setcookie -d "nm=Frodo%20Baggins" -L -c cookie-jar.txt
+   56  cat cookie-jar.txt
+   57  ls
+   58  mkdir -p ~/mycode/templates
+   59  vim ~/mycode/templates/hosts.j2
+   60  vim ~/mycode/templates/formcollector.html.j2
+   61  cd ..
+   62  ls
+   63  vim solution.py 
+   64  cd ~/mycode/flaskapi/
+   65  ls -al
+   66  vim session01.py
+   67  python3 session01.py
+   68  curl http://0.0.0.0:2224/ -L
+   69  curl http://0.0.0.0:2224/login -L -d "username=Homer" -c session-cookie.txt
+   70  curl http://0.0.0.0:2224/ -L
+   71  curl http://0.0.0.0:2224/login -L -d "username=Homer" -c session-cookie.txt
+   72  cat session-cookie.txt
+   73  python3 -c "import os; print(os.urandom(16))"
+   74  cd ..
+   75  ./ugit.sh 
+   76  mkdir -p /home/student/mycode/flaskapi/
+   77  mkdir -p /home/student/mycode/flaskapi/templates/
+   78  vim ~/mycode/flaskapi/templates/log_in.html
+   79  cd ~/mycode/flaskapi/
+   80  vim redirect01.py
+   81  python3 redirect01.py
+   82  curl http://0.0.0.0:2224 -L
+   83  curl http://0.0.0.0:2224/login -d "username=cupcake" -L
+   84  curl http://0.0.0.0:2224/login -d "username=admin" -L
+   85  python3 -m pip install Flask-Limiter
+   86  vim limitedapis.py
+   87  curl http://0.0.0.0:2224/slow
+   88  curl http://0.0.0.0:2224/fast
+   89  curl http://0.0.0.0:2224/ping
+   90  vim lab41_cal01.py
+   91  python3 lab41_cal01.py 
+   92  mkdir -p ~/mycode/flaskapi/templates
+   93  vim uploader01.py
+   94  vim templates/upload.html
+   95  mkdir /home/student/mycode/flaskapi/static/
+   96  python3 -m pip install numpy
+   97  python3 -m pip install pyyaml
+   98  python3 -m pip install paramiko
+   99  python3 -m pip install matplotlib
+  100  python3 -m pip install ansible
+  101  cd ~
+  102  bash ~/px/scripts/full-setup.sh
+  103  cd /home/student/mycode/flaskapi/
+  104  vim /home/student/sshpass.yml
+  105  vim graphapp01.py
+  106  vim templates/graph.html
+  107  mkdir /home/student/mycode/sqldb
+  108  cd /home/student/mycode/sqldb
+  109  vim database01.py
+  110  python3 database01.py
+  111  vim database02.py
+  112  python3 database02.py
+  113  vim database02v2.py
+  114  python3 database02v2.py
+  115  vim database03.py
+  116  python3 database03.py
+  117  vim database04.py
+  118  python3 database04.py
+  119  vim database05.py
+  120  python3 database05.py
+  121  vim database06.py
+  122  python3 database06.py
+  123  cd ..
+  124  ./ugit.sh 
+  125  mkdir /home/student/mycode/apisqlite
+  126  cd /home/student/mycode/apisqlite
+  127  vim ~/omdb.key
+  128  vim apisqlite01.py
+  129  sudo apt install sqlite3
+  130  sqlite3
+  131  python3 apisqlite01.py
+  132  vim apisqlite02.py
+  133  cd ..
+  134  ./ugit.sh 
+  135  python3 apisqlite01.py
+  136  cd apisqlite/
+  137  python3 apisqlite01.py
+  138  sqlite3 
+  139  mkdir -p /home/student/mycode/myapp/templates/
+  140  cd /home/student/mycode/myapp
+  141  vim server01.py
+  142  vim templates/student.html
+  143  vim templates/result.html
+  144  vim templates/list.html
+  145  vim templates/home.html
+  146  curl  http://127.0.0.1:2224/~
+  147  curl http://127.0.0.1:2224/addrec -d "nm=David" -d "addr=Texas" -d "city=Dallas" -d "pin=1"
+  148  vim chal01.py
+  149  cd ..
+  150  ./ugit.sh 
+  151  mkdir -p /home/student/mycode/waitress/
+  152  cd ~/mycode/waitress/
+  153  vim werkzeug_svr.py
+  154  python3 -m pip install waitress
+  155  vim waitress_svr.py
+  156  curl localhost:2224/
+  157  cd
+  158  docker --help
+  159  mkdir ~/mycode/dune && cd ~/mycode/dune
+  160  vim dune.py
+  161  python3 -m pip install flask
+  162  vim Dockerfile
+  163  vim requirements.txt
+  164  sudo docker run --name scifi -d -p 5000:5000 dune-app
+  165  curl http://localhost:5000/
+  166  curl http://localhost:5000/atreides
+  167  sudo docker ps
+  168  sudo docker run --name sandworm -d -p 34727:5000 dune-app
+  169  sudo docker stop scifi
+  170  sudo docker stop $(sudo docker ps -aq)
+  171  cd ..
+  172  ./ugit.sh 
+  173  python3 -m pip install fastapi
+  174  python3 -m pip install "uvicorn[standard]"
+  175  mkdir ~/mycode/fastapiexample
+  176  cd ~/mycode/fastapiexample
+  177  vim main.py
+  178  curl http://127.0.0.1:8000/items/6?q=alta
+  179  vim main02.py
+  180  cd
+  181  sudo apt install virtualenv -y
+  182  python3 -m venv coffeeshop
+  183  cd
+  184  sudo apt install virtualenv -y
+  185  python3 -m venv boxst
+  186  source ./boxst/bin/activate
+  187  pip install Django
+  188  django-admin startproject boxstore
+  189  cd ~/boxstore/
+  190  sudo apt install tree -y
+  191  tree
+  192  vim ~/boxstore/boxstore/views.py
+  193  cat ~/boxstore/boxstore/urls.py
+  194  rm ~/boxstore/boxstore/urls.py
+  195  vim ~/boxstore/boxstore/urls.py
+  196  AUX1=aux1-`hostname --domain`.live.alta3.com
+  197  sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = \['$AUX1', '127.0.0.1'\]/g" boxstore/settings.py
+  198  echo "CSRF_TRUSTED_ORIGINS = ['https://$AUX1', 'http://127.0.0.1']" >> boxstore/settings.py
+  199  curl http://127.0.0.1:2224/success/
+  200  curl http://127.0.0.1:2224/success/ -v
+  201  curl http://127.0.0.1:2224/ierror/
+  202  vim ~/boxstore/boxstore/views.py
+  203  vim ~/boxstore/boxstore/urls.py
+  204  python3 manage.py runserver 0:2224
+  205  curl http://127.0.0.1:2224/header/ -v
+  206  curl http://127.0.0.1:2224/created/
+  207  deactivate
+  208  cd
+  209  mv ~/boxstore/ ~/mycode/
+  210  cd mycode/
+  211  ./ugit.sh 
+  212  cd ~
+  213  wget https://static.alta3.com/courses/python/swagger_flask_petstore.tar
+  214  tar -xvf swagger_flask_petstore.tar
+  215  cd swagger_petstore_flask
+  216  python3 -m pip install -r requirements.txt
+  217  python3 -m swagger_server
+  218  python3 -m pip uninstall markupsafe flask-limiter
+  219  python3 -m pip install markupsafe==2.0.1
+  220  cd ~
+  221  sudo apt install virtualenv -y
+  222  python3 -m venv jsondja
+  223  pip install Django
+  224  source ./jsondja/bin/activate
+  225  pip install Django
+  226  django-admin startproject jsonreturn
+  227  cd ~/jsonreturn/
+  228  sudo apt install tree -y
+  229  vim ~/jsonreturn/jsonreturn/views.py
+  230  cat ~/jsonreturn/jsonreturn/urls.py
+  231  rm ~/jsonreturn/jsonreturn/urls.py
+  232  vim ~/jsonreturn/jsonreturn/urls.py
+  233  AUX1=aux1-`hostname --domain`.live.alta3.com
+  234  sed -i "s/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = \['$AUX1', '127.0.0.1'\]/g" jsonreturn/settings.py
+  235  echo "CSRF_TRUSTED_ORIGINS = ['https://$AUX1', 'http://127.0.0.1']" >> jsonreturn/settings.py
+  236  curl http://127.0.0.1:2224/schools/ -v
+  237  vim ~/jsonreturn/jsonreturn/views.py
+  238  vim ~/jsonreturn/jsonreturn/urls.py
+  239  curl http://127.0.0.1:2224/comics/ -v
+  240  curl http://127.0.0.1:2224/comics/?universe=marvel -v
+  241  curl http://127.0.0.1:2224/comics/?universe=dc -v
+  242  deactivate
+  243  cd
+  244  mv ~/jsonreturn/ ~/mycode/
+  245  cd mycode/
+  246  ./ugit.sh returning JSON with django
+  247  sudo apt install virtualenv -y
+  248  cat /etc/*-release
+  249  history
+  250  history >> hist_20230512_13:49.txt
