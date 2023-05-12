@@ -1,0 +1,239 @@
+    1  ls
+    2  pwd
+    3  free -m
+    4  # copy me!
+    5  pwd
+    6  ls
+    7  cd static
+    8  mkdir training
+    9  cd training
+   10  touch example_01.txt
+   11  ls
+   12  echo Alta3 Research Training rocks!
+   13  echo Alta3 Research has AWESOME labs! > myfile.txt
+   14  ls
+   15  echo Alta3 Research has AMAZING labs! >> myfile.txt
+   16  cat myfile.txt
+   17  mv myfile.txt ego_fuel.txt
+   18  cat ego_fuel.txt
+   19  history
+   20  man ls
+   21  cd ~
+   22  vim zork.test
+   23  cat zork.test 
+   24  %
+   25  history
+   26  export TOKEN=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
+   27  export USERNAME=carlstewart222
+   28  export EMAIL=carl@stewartsonline.net
+   29  wget https://labs.alta3.com/courses/github/scripts/git-connect.sh
+   30  bash ~/git-connect.sh 
+   31  cd mycode/
+   32  echo "Training and learning about git commits with Alta3 Research" > ~/mycode/Alta3Research.txt
+   33  git status
+   34  touch ugit.sh
+   35  vim ugit.sh 
+   36  chmod +X ugit.sh 
+   37  ls
+   38  bash ./ugit.sh 
+   39  python3 -m pip install requests
+   40  vim swapidemo1.py
+   41  python3 -m pip install requests
+   42  vim swapidemo1.py
+   43  python3 swapidemo1.py
+   44  vim swapidemo2.py
+   45  python3 swapidemo2.py
+   46  vim swapidemo3.py
+   47  python3 swapidemo3.py
+   48  which python3
+   49  python3
+   50  vim ~/mycode/listrev01.py
+   51  python3 ~/mycode/listrev01.py
+   52  vim ~/mycode/listrev02.py
+   53  python3 ~/mycode/listrev02.py
+   54  vim ~/mycode/listrev03.py
+   55  python3 ~/mycode/listrev03.py
+   56  vim ~/mycode/listrev04.py
+   57  python3 ~/mycode/listrev04.py
+   58  vim ~/mycode/listrev05.py
+   59  python3 ~/mycode/listrev05.py
+   60  vim ~/mycode/listrev03.py
+   61  ls
+   62  bash ./ugit.sh 
+   63  ls
+   64  mkdir dict
+   65  cd dict/
+   66  mkdir dictrev01.py
+   67  rmdir dictrev01.py/
+   68  vim dictrev01.py
+   69  python3 ~/dicttrev01.py
+   70  python3 dicttrev01.py
+   71  ls
+   72  python3 dictrev01.py 
+   73  vim ~/mycode/dict//dictrev02.py
+   74  ls
+   75  python3 dictrev02.py 
+   76  vim dictrev03.py
+   77  python3 dictrev03.py 
+   78  cd ..
+   79  bash ugit.sh 
+   80  git push
+   81  bash ugit.sh 
+   82  bash ./ugit.sh 
+   83  git add dict\*
+   84  git comit -m "adding Dict"
+   85  git commit -m "adding Dict"
+   86  cd
+   87  python3 -m pip install requests
+   88  cd mycode/
+   89  vim swapi1.py
+   90  python3 swapi1.py
+   91  vim swapi2.py
+   92  python3 swapi2.py
+   93  vim swapi2.py
+   94  python3 swapi2.py
+   95  vim swapi2.py 
+   96  python3 swapi2.py
+   97  vim swapi2.py 
+   98  python3 swapi2.py
+   99  vim swapi2.py 
+  100  bash ugit.sh 
+  101  vim ~/mycode/mygame01.py
+  102  chmod u+x ~/mycode/mygame01.py
+  103  python3 ~/mycode/mygame01.py
+  104  vim ~/mycode/mygame01.py
+  105  python3 ~/mycode/mygame01.py
+  106  vim ~/mycode/mygame01.py
+  107  bash ugit.sh 
+  108  vim ~/mycode/makejson01.py
+  109  python3 ~/mycode/makejson01.py
+  110  cat ~/mycode/galaxyguide.json
+  111  vim makejson02.py
+  112  python3 ~/mycode/makejson02.py
+  113  vim ~/mycode/datacenter.json
+  114  vim ~/mycode/makejson03.py
+  115  python3 ~/mycode/makejson03.py
+  116  vim ~/mycode/makejson04.py
+  117  python3 ~/mycode/makejson04.py
+  118  bash ugit.sh 
+  119  python3 -m pip install requests\
+  120  vim ~/mycode/iceAndFire01.py
+  121  python3 ~/mycode/iceAndFire01.py
+  122  vim ~/mycode/iceAndFire02.py
+  123  python3 ~/mycode/iceAndFire02.py
+  124  vim ~/mycode/iceAndFire03.py
+  125  python3 ~/mycode/iceAndFire03.py
+  126  vim ~/mycode/iceAndFire04.py
+  127  python3 ~/mycode/iceAndFire04.py
+  128  mkdir ~/mycode/
+  129  ls
+  130  mkdir ~/mycode/pokemon/
+  131  python3 -m pip install requests
+  132  vim pokemon/pikachu01.py
+  133  python3 pokemon/pikachu01.py
+  134  vim pokemon/pikachu02.py
+  135  python3 pokemon/pikachu02.py
+  136  python3 -m pip install pandas openpyxl
+  137  vim pokemon/pikachu03.py
+  138  python3 pokemon/pikachu03.py --searchword heal
+  139  python3 pokemon/pikachu03.py --searchword ball
+  140  bash ugit.sh 
+  141  mkdir ~/mycode/jsontest/
+  142  python3 -m pip install requests
+  143  vim jsontest/jsontestIP.py
+  144  python3 jsontest/jsontestIP.py
+  145  .vim jsontest/jsontestValidateGET.py
+  146  vim jsontest/jsontestValidateGET.py
+  147  python3 jsontest/jsontestValidateGET.py
+  148  vim jsontest/jsontestValidatePOST.py
+  149  python3 jsontest/jsontestValidatePOST.py
+  150  vim jsontest/myservers.txt
+  151  vim jsontest/jsontestValidatePOST02.py
+  152  python3 jsontest/jsontestValidatePOST02.py
+  153  bash ugit.sh 
+  154  python3
+  155  mkdir -p ~/mycode/nasa/
+  156  cd nasa/
+  157  vim apod.py
+  158  python3 -m pip install requests
+  159  vim apod02.py
+  160  python3 apod02.py
+  161  cd ~
+  162  ls
+  163  vim nasa.creds
+  164  cd mycode/nasa/
+  165  chmod u+x neows.py
+  166  vim neows.py
+  167  chmod u+x neows.py
+  168  ./neows.py 
+  169  cd ..
+  170  chmod u+x ugit.sh 
+  171  ./ugit.sh 
+  172  cd ..
+  173  vim marvel.priv
+  174  vim marvel.pub
+  175  mkdir mycode/xmen
+  176  cd mycode/xmen/
+  177  python3 -m pip install requests
+  178  vim marvel_api_01.py
+  179  python3 marvel_api_01.py --dev /home/student/marvel.priv --pub /home/student/marvel.pub
+  180  vim marvel_api_02.py
+  181  python3 marvel_api_02.py --dev /home/student/marvel.priv --pub /home/student/marvel.pub --hero Rogue
+  182  python3 marvel_api_02.py --dev /home/student/marvel.priv --pub /home/student/marvel.pub --hero Kitty-Pride
+  183  python3 marvel_api_02.py --dev /home/student/marvel.priv --pub /home/student/marvel.pub --hero shadowcat
+  184  cd ..
+  185  ./ugit.sh 
+  186  cd ~
+  187  mkdir -p ~/mycode/httpwork/
+  188  vim ~/mycode/httpwork/custom_server.py
+  189  vim ~/mycode/httpwork/custom_client.py
+  190  cd ~/mycode
+  191  python3 ~/mycode/httpwork/custom_server.py
+  192  python3 myflask01.py
+  193  cd flaskapi/
+  194  python3 myflask01.py
+  195  python3 myflask02.py
+  196  python3 myflask03.py
+  197  python3 myflask04.py
+  198  python3 jinja2temp01.py
+  199  python3 jinja2temp02.py
+  200  python3 jinja2temp03.py
+  201  python3 ~/mycode/solution.py
+  202  python3 milkncookies.py
+  203  python3 session01.py 
+  204  python3 redirect01.py
+  205  python3 limitedapis.py
+  206  python3 uploader01.py
+  207  python3 graphapp01.py
+  208  cd ../myapp/
+  209  python3 server01.py
+  210  cd ../waitress/
+  211  python3 werkzeug_svr.py 
+  212  python3 waitress_svr.py
+  213  cd ../dune/
+  214  python3 dune.py
+  215  sudo docker build -t dune-app -f Dockerfile .
+  216  cd ../fastapiexample/
+  217  python3 main.py
+  218  python3 main02.py
+  219  cd ..
+  220  ./ugit.sh 
+  221  sudo apt install virtualenv -y
+  222  python3 manage.py runserver 0:2224
+  223  cd ~/boxst
+  224  python3 manage.py runserver 0:2224
+  225  cd ../boxstore/
+  226  python3 manage.py runserver 0:2224
+  227  pip install django
+  228  python3 manage.py runserver 0:2224
+  229  cd ~/swagger_petstore_flask/
+  230  python3 -m swagger_server
+  231  cd ~/mycode/djreq
+  232  python3 manage.py runserver 0:2224
+  233  cd ../todo_site/
+  234  python3 manage.py runserver 0:2224
+  235  clear
+  236  python3 manage.py runserver 0:2224
+  237  python3 manage.py runserver 0:2224 | more
+  238  history >> hist_other 20230512.txt
+  239  history >> hist_other_20230512.txt
